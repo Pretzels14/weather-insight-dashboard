@@ -10,6 +10,8 @@ Built using **PyCharm** & **Flask**, the app will display forecasts, climate tre
 ✅ Linked static CSS for styling  
 ✅ Verified Flask server runs locally  
 
+Still need to update files such as CSS and index.html even though I marked them as completed (marked as completed for purposes of tracking my work log, still going to work on them Thursday/Friday)
+
 ## Next Steps (Week 2)
 - Connect OpenWeather API
 - Build `/weather` route
