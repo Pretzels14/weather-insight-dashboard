@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d705098c-100d-4d6d-94d2-6a8b2467930f" name="Changes" comment="updated templates and static directories with basic files to be able to upload to github repo">
+    <list default="true" id="d705098c-100d-4d6d-94d2-6a8b2467930f" name="Changes" comment="began to add basic Flask routing to app.py and added a Title to our index.html file">
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,16 +47,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Python.app.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;stardust.markdown.MarkdownSplitEditorSuppressor:keyList&quot;: []
+  "keyToStringList": {
+    "stardust.markdown.MarkdownSplitEditorSuppressor:keyList": []
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -95,7 +98,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761710425497</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="began to add basic Flask routing to app.py and added a Title to our index.html file">
+      <option name="closed" value="true" />
+      <created>1761714833832</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1761714833832</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -123,6 +134,7 @@
     <MESSAGE value="initialized and created the weather dashboard" />
     <MESSAGE value="added templates and static directories, as well as created the app.py file (main file)" />
     <MESSAGE value="updated templates and static directories with basic files to be able to upload to github repo" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated templates and static directories with basic files to be able to upload to github repo" />
+    <MESSAGE value="began to add basic Flask routing to app.py and added a Title to our index.html file" />
+    <option name="LAST_COMMIT_MESSAGE" value="began to add basic Flask routing to app.py and added a Title to our index.html file" />
   </component>
 </project>
