@@ -1,12 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name = "viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather Insight</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
 </head>
 <body>
     <h1>Welcome to the Weather and Climate Insight Dashboard</h1>
     <p>This app is a work in progress, so check back in soon for updates as I go! </p>
+
+    <form>
+        <input type="text" placeholder="Enter a City name" disabled>
+        <button disabled> Get Insight(Coming Soon)</button>
+    </form>
+
 </body>
 </html>
