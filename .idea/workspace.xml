@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d705098c-100d-4d6d-94d2-6a8b2467930f" name="Changes" comment="added placeholder text for now to index.html, updated routing in app.py, and added a requirements.txt file. Most of this commit went to the README.md">
+    <list default="true" id="d705098c-100d-4d6d-94d2-6a8b2467930f" name="Changes" comment="Updated CSS with a basic but improved upon from previous commit stylesheet. Updated index.html to link CSS to app.py as well as added placeholder buttons">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
@@ -47,17 +48,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Python.app.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Python.app.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;
   },
-  "keyToStringList": {
-    "stardust.markdown.MarkdownSplitEditorSuppressor:keyList": []
+  &quot;keyToStringList&quot;: {
+    &quot;stardust.markdown.MarkdownSplitEditorSuppressor:keyList&quot;: []
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -114,7 +115,23 @@
       <option name="project" value="LOCAL" />
       <updated>1761797326517</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Updated CSS with a basic but improved upon from previous commit stylesheet. Updated index.html to link CSS to app.py as well as added placeholder buttons">
+      <option name="closed" value="true" />
+      <created>1762007701177</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1762007701177</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Updated CSS with a basic but improved upon from previous commit stylesheet. Updated index.html to link CSS to app.py as well as added placeholder buttons">
+      <option name="closed" value="true" />
+      <created>1762007871409</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1762007871409</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -144,6 +161,7 @@
     <MESSAGE value="updated templates and static directories with basic files to be able to upload to github repo" />
     <MESSAGE value="began to add basic Flask routing to app.py and added a Title to our index.html file" />
     <MESSAGE value="added placeholder text for now to index.html, updated routing in app.py, and added a requirements.txt file. Most of this commit went to the README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="added placeholder text for now to index.html, updated routing in app.py, and added a requirements.txt file. Most of this commit went to the README.md" />
+    <MESSAGE value="Updated CSS with a basic but improved upon from previous commit stylesheet. Updated index.html to link CSS to app.py as well as added placeholder buttons" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated CSS with a basic but improved upon from previous commit stylesheet. Updated index.html to link CSS to app.py as well as added placeholder buttons" />
   </component>
 </project>

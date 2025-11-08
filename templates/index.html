@@ -1,21 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta name = "viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather Insight</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Insight Dashboard</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
-
 </head>
 <body>
-    <h1>Welcome to the Weather and Climate Insight Dashboard</h1>
-    <p>This app is a work in progress, so check back in soon for updates as I go! </p>
-
-    <form>
-        <input type="text" placeholder="Enter a City name" disabled>
-        <button disabled> Get Insight(Coming Soon)</button>
+    <h1>🌤️ Weather & Climate Insight Dashboard</h1>
+    <form action="/weather" method="POST">
+        <input type="text" name="city" placeholder="Enter city name" required>
+        <button type="submit">Search</button>
     </form>
 
+    {% if error %}
+        <p class="error">{{ error }}</p>
+    {% endif %}
+
+    {% if weather %}
+        <div class="result">
+            <h2>{{ weather.city }}</h2>
+            <img src="https://openweathermap.org/img/wn/{{ weather.icon }}@2x.png" alt="icon">
+            <p>{{ weather.description }}</p>
+            <p>Temperature: {{ weather.temperature }}°F</p>
+            <p>Humidity: {{ weather.humidity }}%</p>
+        </div>
+    {% endif %}
 </body>
 </html>

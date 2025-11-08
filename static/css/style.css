@@ -1,21 +1,48 @@
-
 body {
-    font-family: Arial, sans-serif;
-    background: #e0f7fa;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #cdeffd, #ffffff);
     text-align: center;
     padding: 50px;
 }
 
 h1 {
-    color: #0077b6;
+    color: #005f8a;
 }
 
 form {
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
-input, button {
+input {
     padding: 10px;
-    margin: 5px;
     border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 200px;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #0077b6;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0096c7;
+}
+
+.result {
+    margin-top: 30px;
+    background: white;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 20px 40px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.error {
+    color: red;
+    margin-top: 15px;
 }
