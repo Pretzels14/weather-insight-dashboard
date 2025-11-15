@@ -7,7 +7,9 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 <body>
+
     <h1>🌤️ Weather & Climate Insight Dashboard</h1>
+
     <form action="/weather" method="POST">
         <input type="text" name="city" placeholder="Enter city name" required>
         <button type="submit">Search</button>
@@ -25,6 +27,30 @@
             <p>Temperature: {{ weather.temperature }}°F</p>
             <p>Humidity: {{ weather.humidity }}%</p>
         </div>
+
+        {% if forecast %}
+            <h3>5-Day Forecast</h3>
+            <div class="forecast">
+                {% for f in forecast %}
+                    <div class="forecast-day">
+                        <p><strong>{{ f.date }}</strong></p>
+                        <img src="https://openweathermap.org/img/wn/{{ f.icon }}.png" alt="icon">
+                        <p>{{ f.desc }}</p>
+                        <p>{{ f.temp }}°F</p>
+                    </div>
+                {% endfor %}
+            </div>
+        {% endif %}
     {% endif %}
+
+    {% if recent %}
+        <h3>Recent Searches</h3>
+        <ul>
+            {% for city, temp, desc, date in recent %}
+                <li>{{ city }} — {{ temp }}°F — {{ desc }} ({{ date.split(' ')[0] }})</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+
 </body>
 </html>
