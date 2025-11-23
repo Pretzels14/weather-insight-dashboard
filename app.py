@@ -115,10 +115,12 @@ def weather():
         (weather_data["city"], weather_data["temperature"], weather_data["description"])
     )
     conn.commit()
+
+    cursor.execute("SELECT city, temperature, description, date FROM searches ORDER BY id DESC LIMIT 5")
+    recent = cursor.fetchall()
     conn.close()
 
-
-    return render_template("index.html", weather=weather_data, forecast = forecast_list)
+    return render_template("index.html", weather=weather_data, forecast = forecast_list, recent = recent)
 
 
 

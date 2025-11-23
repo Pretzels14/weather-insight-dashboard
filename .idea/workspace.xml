@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d705098c-100d-4d6d-94d2-6a8b2467930f" name="Changes" comment="Updated CSS for more stylish and dynamic look. Added /weather route and API to app.py. Updated index.html to include images of weather.">
+    <list default="true" id="d705098c-100d-4d6d-94d2-6a8b2467930f" name="Changes" comment="Added SQLite DB to the project for local stores, added to the /weather route to allow for future 5 dayh forecasts">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
@@ -137,7 +137,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762622981222</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added SQLite DB to the project for local stores, added to the /weather route to allow for future 5 dayh forecasts">
+      <option name="closed" value="true" />
+      <created>1763215718230</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1763215718230</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -169,6 +177,7 @@
     <MESSAGE value="added placeholder text for now to index.html, updated routing in app.py, and added a requirements.txt file. Most of this commit went to the README.md" />
     <MESSAGE value="Updated CSS with a basic but improved upon from previous commit stylesheet. Updated index.html to link CSS to app.py as well as added placeholder buttons" />
     <MESSAGE value="Updated CSS for more stylish and dynamic look. Added /weather route and API to app.py. Updated index.html to include images of weather." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated CSS for more stylish and dynamic look. Added /weather route and API to app.py. Updated index.html to include images of weather." />
+    <MESSAGE value="Added SQLite DB to the project for local stores, added to the /weather route to allow for future 5 dayh forecasts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added SQLite DB to the project for local stores, added to the /weather route to allow for future 5 dayh forecasts" />
   </component>
 </project>
