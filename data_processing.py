@@ -24,10 +24,7 @@ def ensure_cache_table(db_path):
     conn.close()
 
 def save_daily_records_to_db(db_path, city, daily_records):
-    """
-    daily_records: list of {'date':'YYYY-MM-DD','temp':float,'precip':float}
-    Upserts daily records into climate_daily table.
-    """
+
     conn = sqlite3.connect(db_path)
     cursor = conn.cursor()
     cursor.execute('''
@@ -118,10 +115,7 @@ def compute_monthly_averages(db_path, city, years=30):
 
 
 def read_cached_monthly_averages(db_path, city, years=30):
-    """
-    Optional: read a cached monthly aggregation from climate_monthly_cache.
-    Returns dict or None.
-    """
+
     conn = sqlite3.connect(db_path)
     cur = conn.cursor()
     cur.execute("SELECT month, avg_temp, total_precip, year FROM climate_monthly_cache WHERE city = ?", (city,))
