@@ -1,0 +1,130 @@
+city,month,avg_temp_f,avg_precip_in
+Chicago,Jan,25.0,1.8
+Chicago,Feb,28.0,1.7
+Chicago,Mar,38.0,2.5
+Chicago,Apr,50.0,3.4
+Chicago,May,61.0,3.7
+Chicago,Jun,71.0,4.2
+Chicago,Jul,76.0,3.7
+Chicago,Aug,75.0,4.6
+Chicago,Sep,67.0,3.3
+Chicago,Oct,54.0,3.0
+Chicago,Nov,41.0,2.9
+Chicago,Dec,29.0,2.4
+
+New York,Jan,32.0,3.5
+New York,Feb,35.0,3.0
+New York,Mar,42.0,4.3
+New York,Apr,53.0,4.5
+New York,May,63.0,4.0
+New York,Jun,72.0,4.4
+New York,Jul,77.0,4.6
+New York,Aug,76.0,4.3
+New York,Sep,69.0,4.3
+New York,Oct,58.0,3.8
+New York,Nov,48.0,3.9
+New York,Dec,38.0,3.8
+
+Los Angeles,Jan,58.0,3.1
+Los Angeles,Feb,60.0,3.8
+Los Angeles,Mar,62.0,2.1
+Los Angeles,Apr,64.0,0.7
+Los Angeles,May,66.0,0.3
+Los Angeles,Jun,70.0,0.1
+Los Angeles,Jul,75.0,0.0
+Los Angeles,Aug,76.0,0.1
+Los Angeles,Sep,75.0,0.2
+Los Angeles,Oct,70.0,0.6
+Los Angeles,Nov,63.0,1.0
+Los Angeles,Dec,58.0,2.3
+
+Miami,Jan,70.0,2.2
+Miami,Feb,72.0,2.1
+Miami,Mar,75.0,2.5
+Miami,Apr,78.0,3.5
+Miami,May,82.0,5.5
+Miami,Jun,85.0,8.5
+Miami,Jul,86.0,6.3
+Miami,Aug,86.0,8.5
+Miami,Sep,85.0,8.2
+Miami,Oct,81.0,6.5
+Miami,Nov,76.0,3.1
+Miami,Dec,72.0,2.0
+
+Seattle,Jan,41.0,5.1
+Seattle,Feb,44.0,3.7
+Seattle,Mar,47.0,3.7
+Seattle,Apr,52.0,2.7
+Seattle,May,58.0,1.9
+Seattle,Jun,63.0,1.6
+Seattle,Jul,68.0,0.7
+Seattle,Aug,68.0,1.0
+Seattle,Sep,63.0,1.5
+Seattle,Oct,54.0,3.5
+Seattle,Nov,46.0,6.6
+Seattle,Dec,41.0,5.6
+
+London,Jan,41.0,2.1
+London,Feb,43.0,1.6
+London,Mar,47.0,1.7
+London,Apr,52.0,1.6
+London,May,59.0,2.0
+London,Jun,64.0,1.8
+London,Jul,68.0,1.8
+London,Aug,67.0,2.1
+London,Sep,62.0,2.0
+London,Oct,54.0,2.8
+London,Nov,47.0,2.3
+London,Dec,43.0,2.1
+
+Tokyo,Jan,41.0,2.0
+Tokyo,Feb,43.0,2.3
+Tokyo,Mar,50.0,4.3
+Tokyo,Apr,57.0,5.1
+Tokyo,May,65.0,6.2
+Tokyo,Jun,71.0,6.7
+Tokyo,Jul,78.0,5.9
+Tokyo,Aug,80.0,5.4
+Tokyo,Sep,74.0,8.3
+Tokyo,Oct,64.0,6.6
+Tokyo,Nov,54.0,3.4
+Tokyo,Dec,45.0,1.7
+
+Toronto,Jan,23.0,1.6
+Toronto,Feb,25.0,1.2
+Toronto,Mar,33.0,2.0
+Toronto,Apr,46.0,2.2
+Toronto,May,57.0,2.6
+Toronto,Jun,67.0,2.8
+Toronto,Jul,72.0,2.6
+Toronto,Aug,70.0,3.2
+Toronto,Sep,61.0,2.8
+Toronto,Oct,50.0,2.4
+Toronto,Nov,38.0,2.4
+Toronto,Dec,28.0,2.0
+
+Phoenix,Jan,57.0,0.7
+Phoenix,Feb,60.0,0.8
+Phoenix,Mar,65.0,1.0
+Phoenix,Apr,73.0,0.3
+Phoenix,May,83.0,0.1
+Phoenix,Jun,93.0,0.1
+Phoenix,Jul,100.0,0.8
+Phoenix,Aug,99.0,1.0
+Phoenix,Sep,93.0,0.5
+Phoenix,Oct,80.0,0.6
+Phoenix,Nov,67.0,0.5
+Phoenix,Dec,57.0,0.8
+
+Denver,Jan,30.0,0.5
+Denver,Feb,32.0,0.6
+Denver,Mar,40.0,1.3
+Denver,Apr,47.0,1.7
+Denver,May,57.0,2.0
+Denver,Jun,67.0,1.0
+Denver,Jul,73.0,1.6
+Denver,Aug,71.0,1.5
+Denver,Sep,63.0,1.1
+Denver,Oct,50.0,1.1
+Denver,Nov,39.0,0.7
+Denver,Dec,31.0,0.5

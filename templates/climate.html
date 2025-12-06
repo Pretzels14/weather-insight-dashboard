@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historical Climate Trends</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <!-- Chart.js for graphs (if you’re using it) -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+    <h1>🌤️ Weather & Climate Insight Dashboard</h1>
+
+    <div class="nav">
+        <a href="{{ url_for('home') }}">Home</a> |
+        <a href="{{ url_for('climate_page') }}">Historical Climate Trends</a>
+    </div>
+
+
+    <h2>Climate Trends</h2>
+
+    <form id="trend-form">
+        <label for="city-select">City:</label>
+        <input
+            list="city-list"
+            id="city-select"
+            name="city"
+            value="{{ default_city if default_city is defined else '' }}"
+            placeholder="Enter city name"
+            required
+        >
+        {% if cities is defined and cities %}
+        <datalist id="city-list">
+            {% for c in cities %}
+                <option value="{{ c }}"></option>
+            {% endfor %}
+        </datalist>
+        {% endif %}
+
+        <label for="years">Years:</label>
+        <select id="years" name="years">
+            <option value="10">10 years</option>
+            <option value="20">20 years</option>
+            <option value="30" selected>30 years</option>
+        </select>
+
+        <button type="button" id="load-trends-btn">Load Trends</button>
+    </form>
+
+    <div class="chart-container">
+        <canvas id="tempChart"></canvas>
+    </div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="{{ url_for('static', filename='js/climate.js') }}"></script>
+
+</body>
+</html>

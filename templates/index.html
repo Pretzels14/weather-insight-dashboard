@@ -11,8 +11,8 @@
     <h1>🌤️ Weather & Climate Insight Dashboard</h1>
 
     <nav>
-        <a href="/">Home</a> |
-        <a  href="/trends"> Historical Climate Trends</a>
+       <a href="{{ url_for('home') }}">Home</a> |
+        <a href="{{ url_for('climate_page') }}">Historical Climate Trends</a>
     </nav>
 
     <form action="/weather" method="POST">
@@ -48,14 +48,22 @@
         {% endif %}
     {% endif %}
 
-    {% if recent %}
-        <h3>Recent Searches</h3>
-        <ul>
-            {% for city, temp, desc, date in recent %}
-                <li>{{ city }} — {{ temp }}°F — {{ desc }} ({{ date.split(' ')[0] }})</li>
-            {% endfor %}
-        </ul>
-    {% endif %}
+{% if recent %}
+<section class="recent-section">
+    <h3>Recent Searches</h3>
+    <div class="recent-grid">
+        {% for city, temp, desc, date in recent %}
+            <div class="recent-card">
+                <h4>{{ city }}</h4>
+                <p class="recent-temp">{{ temp }}°F — {{ desc }}</p>
+                <p class="recent-date">{{ date.split(' ')[0] }}</p>
+            </div>
+        {% endfor %}
+    </div>
+</section>
+{% endif %}
+
 
 </body>
+
 </html>
